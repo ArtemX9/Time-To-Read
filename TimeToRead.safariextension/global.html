@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title>global HTML page</title>
+  <script type="text/javascript">
+    var wpm = Number(safari.extension.settings.wpm);
+
+    function wpmChanged(event) {
+        if (event.key == "wpm") {
+            wpm = event.newValue;
+            safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("wmpUpdated", wpm);
+        }
+    }
+
+    function sendWMP() {
+      safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("wmpValue", wpm);
+    }
+
+    safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("message", wpm);
+    safari.application.addEventListener("message", sendWMP, false);
+    safari.extension.settings.addEventListener("change", wpmChanged, false);
+  </script>
+  </head>
+  <body>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string>60</string>
+		<key>Key</key>
+		<string>wpm</string>
+		<key>MaximumValue</key>
+		<integer>150</integer>
+		<key>Title</key>
+		<string>Words you read per minute</string>
+		<key>Titles</key>
+		<array>
+			<string>40</string>
+			<string>50</string>
+			<string>60</string>
+			<string>70</string>
+			<string>80</string>
+			<string>90</string>
+			<string>100</string>
+			<string>110</string>
+			<string>120</string>
+			<string>130</string>
+			<string>140</string>
+			<string>150</string>
+			<string>160</string>
+			<string>170</string>
+			<string>180</string>
+			<string>190</string>
+			<string>200</string>
+			<string>210</string>
+			<string>220</string>
+			<string>230</string>
+			<string>240</string>
+			<string>250</string>
+			<string>260</string>
+		</array>
+		<key>Type</key>
+		<string>ListBox</string>
+		<key>Values</key>
+		<array>
+			<string>40</string>
+			<string>50</string>
+			<string>60</string>
+			<string>70</string>
+			<string>80</string>
+			<string>90</string>
+			<string>100</string>
+			<string>110</string>
+			<string>120</string>
+			<string>130</string>
+			<string>140</string>
+			<string>150</string>
+			<string>160</string>
+			<string>170</string>
+			<string>180</string>
+			<string>190</string>
+			<string>200</string>
+			<string>210</string>
+			<string>220</string>
+			<string>230</string>
+			<string>240</string>
+			<string>250</string>
+			<string>260</string>
+		</array>
+	</dict>
+</array>
+</plist>
